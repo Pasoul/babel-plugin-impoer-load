@@ -40,7 +40,6 @@ module: {
         test: /\.js$/,
         loader: "babel-loader",
  +       options: {
- +         presets: ["env", "stage-0"],
  +         plugins: [["import-load", { library: "jlb-tools" }]]
  +       }
       }
