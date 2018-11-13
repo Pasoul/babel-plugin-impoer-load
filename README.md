@@ -22,18 +22,18 @@ or
 }
 // webpack.config.js
 module: {
-		rules: [
-			{
-				test: /\.js$/,
-				loader: 'babel-loader'
-			}
-		]
+	rules: [
+		{
+		  	test: /\.js$/,
+			loader: 'babel-loader'
+		}
+	]
 }
 ```
 
 or
 
-```js
+```diff
 module: {
     rules: [
       {
